@@ -37,7 +37,19 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 ```
-Usage: python navigation.py [--n_episodes] <n_episodes> [--max_t] <max_t> [--eps_start] <eps_start> [--eps_end] <eps_end> [--eps_decay] <eps_decay> [--seed] <seed> [--buffer_size] <buffer_size> [--batch_size] <batch_size> [--gamma] <gamma> [--tau] <tau> [--lr] <lr> [--update_every] <update_every> [--train_test] <train_test>
+Usage: python navigation.py [--n_episodes] <n_episodes> 
+                            [--max_t] <max_t> 
+                            [--eps_start] <eps_start> 
+                            [--eps_end] <eps_end> 
+                            [--eps_decay] <eps_decay> 
+                            [--seed] <seed> 
+                            [--buffer_size] <buffer_size> 
+                            [--batch_size] <batch_size> 
+                            [--gamma] <gamma> 
+                            [--tau] <tau> 
+                            [--lr] <lr> 
+                            [--update_every] <update_every> 
+                            [--train_test] <train_test>
 
 Options: 
     --n_episodes <n_episodes>:     maximum number of training episodes (default=10000)
@@ -45,7 +57,7 @@ Options:
     --eps_start <eps_start>:       starting value of epsilon, for epsilon-greedy action selection (default=1.0)
     --eps_end <eps_end>:           minimum value of epsilon (default=0.01)
     --eps_decay <eps_decay>:       multiplicative factor (per episode) for decreasing epsilon (default=0.095)
-    --seed <seed>:                  initialize pseudo random number generator (default=0)
+    --seed <seed>:                 initialize pseudo random number generator (default=0)
     --buffer_size <buffer_size>:   maximum size of buffer (default=1e5)
     --batch_size <batch_size>:     size of each training batch (default=64)
     --gamma <gamma>:               discount factor (default=0.99)
@@ -53,7 +65,7 @@ Options:
     --lr <lr>:                     learning rate (default=5e-4)
     --update_every <update_every>: learn every UPDATE_EVERY time steps (default=4)
     --train_test <train_test>:     0 to train and 1 to test agent (default=0)
-    -h, --help                       show this help message and exit.
+    -h, --help                     show this help message and exit.
 ``` 
 
 ### (Optional) Challenge: Learning from Pixels

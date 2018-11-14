@@ -40,18 +40,18 @@ The task is episodic, and in order to solve the environment, your agent must get
 Usage: 
 
 python navigation.py [--n_episodes] <n_episodes> 
-                            [--max_t] <max_t> 
-                            [--eps_start] <eps_start> 
-                            [--eps_end] <eps_end> 
-                            [--eps_decay] <eps_decay> 
-                            [--seed] <seed> 
-                            [--buffer_size] <buffer_size> 
-                            [--batch_size] <batch_size> 
-                            [--gamma] <gamma> 
-                            [--tau] <tau> 
-                            [--lr] <lr> 
-                            [--update_every] <update_every> 
-                            [--train_test] <train_test>
+                     [--max_t] <max_t> 
+                     [--eps_start] <eps_start> 
+                     [--eps_end] <eps_end> 
+                     [--eps_decay] <eps_decay> 
+                     [--seed] <seed> 
+                     [--buffer_size] <buffer_size> 
+                     [--batch_size] <batch_size> 
+                     [--gamma] <gamma> 
+                     [--tau] <tau> 
+                     [--lr] <lr> 
+                     [--update_every] <update_every> 
+                     [--train_test] <train_test>
 
 Options: 
 
